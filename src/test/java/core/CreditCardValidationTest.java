@@ -12,8 +12,8 @@ import org.testng.annotations.*;
 
  
 public class CreditCardValidationTest implements ITest {
-       String csvFile = "./cc.csv";
-// String csvFile = System.getProperty("testcases"); // mvn site -Dtestcases="./cc.csv"
+       //String csvFile = "./cc.csv";
+String csvFile = System.getProperty("testcases"); // mvn site -Dtestcases="./cc.csv"
 
        private String test_name = ""; public String getTestName() {return test_name;}
        private void setTestName(String a) {test_name = a;}
