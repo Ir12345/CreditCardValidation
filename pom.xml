@@ -80,7 +80,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>core.Validation</mainClass>
+					<mainClass>core.CreditCardValidation</mainClass>
 				</configuration>
 			</plugin>
 			<!-- Compiler configuration -->
