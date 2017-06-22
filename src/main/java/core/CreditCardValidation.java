@@ -57,7 +57,8 @@ ts.toString().split("-")[1])); return (today <= exp);}
        // if (!args[0].contains(".csv")) {System.err.println("Argument must be an csv file"); System.exit(1);}
 // String csvFile = args[0];
 
-              String csvFile = "./cc.csv";
+              //String csvFile = "./cc.csv";
+        String csvFile = System.getProperty("testcases");
               String line = "";
               String delimiter = ",";
               BufferedReader br = new BufferedReader(new FileReader(csvFile));
